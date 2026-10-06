@@ -1,0 +1,15 @@
+# Build Secure 24 — Team Metadata
+# Team Composition Rule: Exactly 2 or 4 registered participants.
+# - If your team has 2 members: provide Member 1 and Member 2, and omit/delete Member 3 and 4.
+# - If your team has 4 members: provide all 4 members.
+
+team:
+  team_id: "01 B"
+  name: "cybernexus"
+  repository: "https://github.com/kanneboinashiva772-bot/Learn-sphere.git" # URL of the newly created GitHub repository for this project
+
+members:
+  - name: "Shiva Kaneeboina"
+    email: "kanneboinashiva@gmail.com"
+  - name: "Charwik Kantala"
+    email: "25p61a05f7@vbithyd.ac.in"

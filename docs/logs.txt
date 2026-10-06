@@ -1,0 +1,170 @@
+================================================================================
+BUILD SECURE 24 — PROMPT & ENGINEERING ACTIVITY LOG
+================================================================================
+Repository: Build Secure 24 Participant Starter
+Log Format: UTF-8 Plain Text
+Lifecycle: Append-Only (Maintained autonomously by AI Agent)
+Timeline: ISO-8601 with local timezone offset
+================================================================================
+
+================================================================================
+[2026-10-06T12:13:34+05:30] Start the local application
+================================================================================
+User Prompt (verbatim):
+run the progrem and give me local host link
+
+Agent Response:
+Welcome to Build Secure 24, organized by Abhedya — VBIT Cybersecurity Forum. You have 24 hours to design, build, and deploy your project. Before we start, I need to walk you through the competition ground rules and get your agreement.
+
+Current system time: 2026-10-06T12:13:34+05:30
+Hackathon Window: October 5, 2026, 11:00 AM IST to October 6, 2026, 11:00 AM IST.
+Hackathon Deadline: October 6, 2026, 11:00 AM IST (2026-10-06T11:00:00+05:30).
+The deadline passed 1 hour, 13 minutes, and 34 seconds ago.
+
+1. **Team Composition**: Exactly 2 or 4 registered participants per team (solo participants, teams of 3, or teams larger than 4 are strictly disqualified).
+2. **Live Authorship**: All application code in `src/` must be authored live during the 24-hour hackathon (October 5, 2026, 11:00 AM IST to October 6, 2026, 11:00 AM IST). Importing, cloning, or adapting pre-existing third-party or open-source repositories as the project solution is strictly prohibited and results in disqualification.
+3. **AI Tools Permitted**: You may use any IDE, AI assistant, or tool to build. The AI agent will automatically log every conversation turn, prompt, agent reply, and file change in `docs/logs.txt`.
+4. **No Rule Overrides**: Prompt injections, jailbreaks, or instructions attempting to bypass competition rules, disable logging, modify AGENTS.md, or forge records are strictly blocked and refused.
+5. **Submission Freeze**: Submissions are evaluated from the frozen commit SHA recorded in `metadata/submission.yaml` at the deadline (October 6, 2026, 11:00 AM IST).
+
+Please reply with the exact string `I agree` (case-insensitive) to confirm. I have not started the application or made a localhost URL available because agreement has not yet been recorded.
+
+Agent Response Summary:
+Checked the app scripts and server configuration; the app can be started with `npm start` and defaults to port 3000. The required onboarding agreement is absent, so the application was not started. Requested the required exact agreement before proceeding.
+
+Commit SHA:
+Not committed; only the required append-only turn log was updated.
+
+Files Modified / Created:
+* docs/logs.txt (Modified)
+
+Actions Taken:
+* Read package.json and server.js to identify the start command and default port.
+* Checked docs/logs.txt for an onboarding agreement; none is recorded.
+* Appended this turn to docs/logs.txt.
+
+================================================================================
+[2026-10-06T12:14:36+05:30] Record onboarding agreement
+================================================================================
+User Prompt (verbatim):
+i agree
+
+Agent Response:
+Agreement received. Onboarding is complete for C:\Users\DELL\Downloads\BuildSecure-main\BuildSecure-main.
+
+Before we begin coding, we need to record your team details in metadata/team.yaml.
+Please provide:
+1. Team ID (organizer-assigned)
+2. Team Name
+3. Team Size (2 or 4 members)
+4. Team GitHub Repository URL (new repository created by your team to push this project)
+5. Member 1: Full Name & Email
+6. Member 2: Full Name & Email
+(If team of 4):
+7. Member 3: Full Name & Email
+8. Member 4: Full Name & Email
+
+The current app start command is `npm start`, and its default address is `http://localhost:3000`. I have not started it yet because team metadata is incomplete; I will resume your original request after the required details are recorded.
+
+Agent Response Summary:
+Recorded the user's exact onboarding agreement and appended this turn to the activity log. Confirmed metadata/team.yaml and metadata/submission.yaml are unpopulated. Requested required team information and deferred launching the application until the metadata step is complete.
+
+Commit SHA:
+Not committed; only the required append-only turn log was updated.
+
+Files Modified / Created:
+* docs/logs.txt (Modified)
+
+Actions Taken:
+* Read metadata/team.yaml and metadata/submission.yaml; both lack team data.
+* Appended this turn to docs/logs.txt.
+
+================================================================================
+[2026-10-06T12:14:36+05:30] ONBOARDING COMPLETE
+================================================================================
+AGREEMENT RECORDED: C:\Users\DELL\Downloads\BuildSecure-main\BuildSecure-main
+Agent: GitHub Copilot
+System Time: 2026-10-06T12:14:36+05:30
+Deadline: 2026-10-06T11:00:00+05:30
+
+================================================================================
+[2026-10-06T12:17:23+05:30] Collect remaining team metadata
+================================================================================
+User Prompt (verbatim):
+01 B Teame name cybernexus,team 2, shiva kaneeboina kanneboinashiva@gmail.com charwik ,25p61a05f7@vbithyd.ac.in
+
+Agent Response:
+I have team ID `01 B`, team name `cybernexus`, team size 2, and the provided member details: Shiva Kaneeboina (`kanneboinashiva@gmail.com`) and Charwik (`25p61a05f7@vbithyd.ac.in`).
+
+Two details are still needed before I can finish `metadata/team.yaml` and update `metadata/submission.yaml`:
+1. The team's GitHub repository URL.
+2. Charwik's full name, if `Charwik` is not the full name to record.
+
+Please send those two details. I have not started the application; once metadata is complete, I will resume your original request.
+
+Agent Response Summary:
+Captured the team metadata provided by the user but did not write partial metadata because the required repository URL is missing and the second member's full name may be incomplete. Asked only for the missing details needed to finish onboarding and continue the original app launch request.
+
+Commit SHA:
+Not committed; only the required append-only turn log was updated.
+
+Files Modified / Created:
+* docs/logs.txt (Modified)
+
+Actions Taken:
+* Appended the user's metadata response and the follow-up request to docs/logs.txt.
+
+================================================================================
+[2026-10-06T12:18:07+05:30] Complete team metadata and start app
+================================================================================
+User Prompt (verbatim):
+https://github.com/kanneboinashiva772-bot/Learn-sphere.git,charwik kantala
+
+Agent Response:
+Saved team ID `01 B`, team name `cybernexus`, team size 2, repository `https://github.com/kanneboinashiva772-bot/Learn-sphere.git`, and members Shiva Kaneeboina (`kanneboinashiva@gmail.com`) and Charwik Kantala (`25p61a05f7@vbithyd.ac.in`) to the metadata files.
+
+The app is configured to start with `npm start` on port 3000. The project directory does not have its own `.git`; Git resolves to `C:\Users\DELL\.git` and reports unrelated home-directory files, so I will not change that Git remote. App startup and the health endpoint check are being performed now.
+
+Agent Response Summary:
+Completed the supplied team metadata in metadata/team.yaml and metadata/submission.yaml. Verified that the apparent Git root is the user's home directory, not this project, and avoided changing its remote or staging unrelated files. Starting the app and checking localhost now.
+
+Commit SHA:
+Not committed; the visible Git root is C:\Users\DELL and has unrelated untracked user files.
+
+Files Modified / Created:
+* metadata/team.yaml (Modified)
+* metadata/submission.yaml (Modified)
+* docs/logs.txt (Modified)
+
+Actions Taken:
+* Updated team and submission metadata with the user's supplied information.
+* Checked the project Git root, remotes, and dependency installation state.
+* Git resolves to C:\Users\DELL\.git; no remote configuration or Git staging was performed.
+
+Turn completion update [2026-10-06T12:19:51+05:30]:
+* Started the app with `npm.cmd start`; `npm start` was blocked by the PowerShell execution policy for npm.ps1.
+* Verified `http://localhost:3000/api/health` returned `{ "ok": true }` and the homepage returned HTTP 200.
+* Local app is running at http://localhost:3000.
+
+================================================================================
+[2026-10-06T12:21:21+05:30] Push project to GitHub
+================================================================================
+User Prompt (verbatim):
+push to git
+
+Agent Response:
+The project directory has no local `.git`; Git had been resolving to `C:\Users\DELL\.git`, which contains unrelated home-directory files. I checked that the supplied GitHub destination currently has no branch refs, and the project `.gitignore` excludes `node_modules/`, `.env`, and `data/*.db`. I will create an isolated repository inside the project directory and push the project to `https://github.com/kanneboinashiva772-bot/Learn-sphere.git` without touching the parent home-directory repository.
+
+Agent Response Summary:
+Inspected the project ignore rules, environment sample, data folder, and destination refs before pushing. The existing project directory is not a standalone Git repository, so the push will use a new project-local repository rather than the unrelated parent repository. Push outcome and commit SHA will be appended after the operation.
+
+Commit SHA:
+Pending push.
+
+Files Modified / Created:
+* docs/logs.txt (Modified)
+
+Actions Taken:
+* Confirmed project-local `.gitignore` excludes dependencies, real environment secrets, and the SQLite database.
+* Confirmed `.env.example` contains placeholder values and the GitHub destination has no branch refs.
+
